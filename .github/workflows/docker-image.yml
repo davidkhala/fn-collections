@@ -1,0 +1,34 @@
+name: Docker image CI
+
+on:
+  push:
+  
+env:
+  REGISTRY: ghcr.io
+  
+jobs:
+  ghcr:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      packages: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Log in to the Container registry
+        uses: docker/login-action@master
+        with:
+          registry: ghcr.io
+          username: davidkhala
+          password: ${{ secrets.TWGC_DAVIDKHALA }}
+
+      
+      - name: Build and push Docker image
+        uses: docker/build-push-action@master
+        with:
+          context: node
+          push: true
+          tags: ghcr.io/davidkhala/fn-node
+          
