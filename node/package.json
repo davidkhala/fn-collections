@@ -1,0 +1,13 @@
+{
+	"name": "@davidkhala/fn",
+	"version": "0.0.0",
+	"description": "fn standalone",
+	"main": "func.js",
+	"author": "david-khala@hotmail.com",
+	"license": "Apache-2.0",
+	"private": "true",
+	"dependencies": {
+		"@fnproject/fdk": "latest"
+	},
+	"type": "module"
+}
