@@ -3,7 +3,7 @@
 
 ## Debug
 ```
-fn invoke default fn-node
+fn invoke <application-name:default> <function-name:fn-node>
 ```
 
-fn invoke <application-name> <function-name>
+
