@@ -3,7 +3,8 @@
 
 ## Debug
 ```
-fn invoke <application-name:default> <function-name:fn-node>
+fn --verbose invoke <application-name:default> <function-name:fn-node>
+
 ```
 
 
