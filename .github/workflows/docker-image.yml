@@ -3,8 +3,6 @@ name: Docker image CI
 on:
   push:
   
-env:
-  REGISTRY: ghcr.io
   
 jobs:
   ghcr:
@@ -22,7 +20,7 @@ jobs:
         with:
           registry: ghcr.io
           username: davidkhala
-          password: ${{ secrets.TWGC_DAVIDKHALA }}
+          password: ${{ secrets.DOCKER_TOKEN }}
 
       
       - name: Build and push Docker image
