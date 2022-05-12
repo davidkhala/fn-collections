@@ -13,7 +13,7 @@ fn create context ap-singapore-1 --provider oracle
 fn use context ap-singapore-1
 fn update context oracle.compartment-id ocid1.tenancy.oc1..aaaaaaaaji4ohhurx2uydbjbvd2skio5ad5tp2nvu4azii2oy5tu5aol4phq
 fn update context api-url https://functions.ap-singapore-1.oraclecloud.com
-fn update context registry sin.ocir.io/cn9yc2hk0gzg/fn-node
+fn update context registry sin.ocir.io/cn9yc2hk0gzg
 ```
 Log into the Registry using the OCI Auth Token as your password
 ```
