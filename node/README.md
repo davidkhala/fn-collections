@@ -1,11 +1,4 @@
 # `fn-node`
-docker Releases
-- `docker pull ghcr.io/davidkhala/fn-node`
-
-## Debug
-```
-echo -n '{"input-key":"data"}' | DEBUG=1 fn --verbose invoke <application-name> <function-name>
-```
 
 ### Deploy from local to oci
 ```
@@ -17,7 +10,7 @@ fn update context registry sin.ocir.io/cn9yc2hk0gzg
 ```
 Log into the Registry using the OCI Auth Token as your password
 ```
-docker login -u 'cn9yc2hk0gzg/davidkhala@gmail.com' sin.ocir.io
+docker login -u 'cn9yc2hk0gzg/oracleidentitycloudservice/davidkhala@gmail.com' sin.ocir.io
 ```
 Verify your setup by listing applications in the compartment
 ```
