@@ -2,7 +2,8 @@
 	"author": "david-khala@hotmail.com",
 	"license": "Apache-2.0",
 	"dependencies": {
-		"@fnproject/fdk": "latest"
+		"@fnproject/fdk": "latest",
+		"oci-common": "latest"
 	},
 	"type": "module"
 }

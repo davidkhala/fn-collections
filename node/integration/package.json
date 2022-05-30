@@ -1,0 +1,11 @@
+{
+  "author": "david-khala@hotmail.com",
+  "license": "Apache-2.0",
+  "private": "true",
+  "dependencies": {
+    "@fnproject/fdk": "latest",
+    "oci-common": "latest",
+    "oci-integration": "latest"
+  },
+  "type": "module"
+}
